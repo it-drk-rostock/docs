@@ -15,6 +15,9 @@
       "to": "#228be6"
     }
   },
+  "primaryTab": {
+    "name": "Dokumentation"
+  },
   "topbarLinks": [
     {
       "name": "Support",
@@ -27,59 +30,43 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Versionshistorie",
+      "url": "changelog"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "group": "",
+      "pages": ["introduction"]
     },
     {
-      "group": "Essentials",
+      "group": "Benutzer",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "benutzer/uebersicht",
+        {
+          "group": "Einrichten",
+          "pages": [
+            "benutzer/einrichten/erstellen",
+            "benutzer/einrichten/einladen",
+            "benutzer/einrichten/verwalten"
+          ]
+        }
       ]
     },
+
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "group": "Dashboard",
+      "pages": ["dashboard/overview"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Versionshistorie",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "changelog/introduction",
+        {
+          "group": "Versionen",
+          "pages": ["changelog/versions/v1"]
+        }
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  ]
 }
