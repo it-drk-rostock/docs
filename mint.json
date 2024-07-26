@@ -50,7 +50,10 @@
             "benutzer/einrichten/einladen",
             "benutzer/einrichten/verwalten"
           ]
-        }
+        },
+        "benutzer/stammdaten",
+        "benutzer/zertifikate",
+        "benutzer/einstellungen"
       ]
     },
 
