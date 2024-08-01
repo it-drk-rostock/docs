@@ -56,7 +56,27 @@
         "benutzer/einstellungen"
       ]
     },
-
+    {
+      "group": "Saisonplanung",
+      "pages": [
+        "saisonplanung/uebersicht",
+        {
+          "group": "Einträge",
+          "pages": [
+            "saisonplanung/eintraege/erstellen",
+            "saisonplanung/eintraege/verwalten"
+          ]
+        },
+        {
+          "group": "Pläne",
+          "pages": [
+            "saisonplanung/plaene/benutzer",
+            "saisonplanung/plaene/unterkuenfte",
+            "saisonplanung/plaene/einsatzkraefte"
+          ]
+        }
+      ]
+    },
     {
       "group": "Dashboard",
       "pages": ["dashboard/overview"]
