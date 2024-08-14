@@ -87,7 +87,11 @@
         "changelog/introduction",
         {
           "group": "Versionen",
-          "pages": ["changelog/versions/v1"]
+          "pages": [
+            "changelog/versions/v1",
+            "changelog/versions/v1.1",
+            "changelog/versions/v1.2"
+          ]
         }
       ]
     }
